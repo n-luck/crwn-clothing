@@ -11,6 +11,8 @@
       background-size: cover;
       background-position: center;
       margin-bottom: 5px;
+      display: flex;
+      position: relative;
     }
   
     .collection-footer {
@@ -19,6 +21,9 @@
       display: flex;
       justify-content: space-between;
       font-size: 18px;
+      align-self: flex-end;
+      position: absolute;
+      bottom: -20px;
   
       .name {
         width: 90%;
