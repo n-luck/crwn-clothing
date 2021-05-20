@@ -32,7 +32,7 @@ class SignUp extends React.Component {
             this.setState("");
 
         } catch (error) {
-            console.error(error);
+            console.log(error);
         }
     }
 
